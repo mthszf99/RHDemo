@@ -6,6 +6,7 @@ import com.RHPro.RHPro.models.Vaga;
 import com.RHPro.RHPro.repository.CandidatoRepository;
 import com.RHPro.RHPro.repository.VagaRepository;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,9 +18,9 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 public class VagaController {
 
-    @AutoWired
+    @Autowired
     private VagaRepository vr;
-    @AutoWired
+    @Autowired
     private CandidatoRepository cr;
 
     //GET CADASTRAR A VAGA
