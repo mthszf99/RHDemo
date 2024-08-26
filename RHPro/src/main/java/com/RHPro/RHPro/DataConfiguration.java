@@ -1,4 +1,4 @@
-package com.RHDemo.RHDemo;
+package com.RHPro.RHPro;
 
 
 import org.springframework.context.annotation.Bean;

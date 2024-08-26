@@ -1,8 +1,8 @@
-package com.RHDemo.RHDemo.repository;
+package com.RHPro.RHPro.repository;
 
-import com.RHDemo.RHDemo.models.Candidato;
+import com.RHPro.RHPro.models.Candidato;
+import com.RHPro.RHPro.models.Vaga;
 import org.springframework.data.repository.CrudRepository;
-import com.RHDemo.RHDemo.models.Vaga;
 
 import java.util.List;
 

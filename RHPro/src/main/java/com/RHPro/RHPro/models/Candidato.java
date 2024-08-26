@@ -1,4 +1,4 @@
-package com.RHDemo.RHDemo.models;
+package com.RHPro.RHPro.models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;

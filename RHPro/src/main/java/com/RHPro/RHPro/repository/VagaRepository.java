@@ -1,6 +1,6 @@
-package com.RHDemo.RHDemo.repository;
+package com.RHPro.RHPro.repository;
 
-import com.RHDemo.RHDemo.models.Vaga;
+import com.RHPro.RHPro.models.Vaga;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

@@ -1,10 +1,10 @@
-package com.RHDemo.RHDemo.controllers;
+package com.RHPro.RHPro.controllers;
 
 
-import com.RHDemo.RHDemo.models.Candidato;
-import com.RHDemo.RHDemo.models.Vaga;
-import com.RHDemo.RHDemo.repository.CandidatoRepository;
-import com.RHDemo.RHDemo.repository.VagaRepository;
+import com.RHPro.RHPro.models.Candidato;
+import com.RHPro.RHPro.models.Vaga;
+import com.RHPro.RHPro.repository.CandidatoRepository;
+import com.RHPro.RHPro.repository.VagaRepository;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

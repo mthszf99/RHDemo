@@ -8,10 +8,10 @@
 		<version>3.3.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.RHDemo</groupId>
-	<artifactId>RHDemo</artifactId>
+	<groupId>com.RHPro</groupId>
+	<artifactId>RHPro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RHDemo</name>
+	<name>RHPro</name>
 	<description>Demo project RH for Spring Boot</description>
 	<url/>
 	<licenses>
