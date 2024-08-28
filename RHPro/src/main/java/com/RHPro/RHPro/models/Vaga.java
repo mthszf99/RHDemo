@@ -8,16 +8,15 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
-
 import jakarta.validation.constraints.NotEmpty;
 
 @Entity
 public class Vaga implements Serializable {
 
-    private static final long serialversionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long codigo;
 
     @NotEmpty
@@ -32,9 +31,9 @@ public class Vaga implements Serializable {
     @NotEmpty
     private String salario;
 
-    //excluir todos os candidatos quando excluir a vaga
-    @OneToMany (mappedBy = "vaga", cascade = CascadeType.REMOVE)
-    private List <Candidato> candidatos;
+    // Excluir todos os candidatos quando excluir a vaga
+    @OneToMany(mappedBy = "vaga", cascade = CascadeType.REMOVE)
+    private List<Candidato> candidatos;
 
     public long getCodigo() {
         return codigo;

@@ -6,8 +6,9 @@ import jakarta.validation.constraints.NotEmpty;
 @Entity
 public class Candidato {
 
+
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     //para não haver rg repetido
